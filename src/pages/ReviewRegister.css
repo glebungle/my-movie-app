@@ -1,0 +1,109 @@
+.entire-container {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background: #f3f3f3;
+  min-height: calc(100vh - 100px); 
+  padding: 40px 0;
+}
+
+.review-container {
+  max-width: 500px;
+  margin: 50px auto;
+  margin-bottom:200px;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.review-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.review-container p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.review-container input[type="number"] {
+  width: 50px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-left:10px;
+}
+
+.review-container input[type="number"]:focus {
+  border-color: #ff4081;
+}
+
+.review-boxes{
+  display: contents;
+  align-items: center;
+}
+
+.review-message {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 18px;
+  color: #969696;
+}
+
+.review-contents input{
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.review-button-group{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:1rem;
+}
+
+.review-register-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff5f5f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  font-weight:bold;
+}
+
+.review-cancel-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  background-color: #ddd;
+}
+
+.review-register-btn:hover {
+  background-color: #e84e4e;
+}
+
+.review-cancel-btn:hover {
+  background-color: #868686;
+}

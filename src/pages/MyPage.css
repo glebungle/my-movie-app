@@ -1,0 +1,182 @@
+.mypage-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: 'Pretendard', sans-serif;
+  min-height: 800px;
+}
+
+.profile-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fafafa;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  border: 1px solid #eee;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+}
+
+.profile-icon {
+  width: 50px;
+  height: 50px;
+  background-color: #eaeaea;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.user-text .user-name {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+
+.edit-button {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.menu-buttons {
+  display: block;
+  gap: 1rem;
+}
+
+.menu-btn-group1{
+  display: flex;
+  gap: 1rem;
+}
+
+.menu-btn-group2{
+  display: flex;
+  gap: 1rem;
+  margin-top:1rem;
+}
+
+.menu-btn-group3{
+  display: flex;
+  gap: 1rem;
+  margin-top:1rem;
+}
+
+
+.menu-btn {
+  flex: 1;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.menu-btn.outline {
+  background: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.menu-btn.outline:hover {
+  background: #f0f0f0;
+}
+
+.menu-btn.filled {
+  background: #333;
+  color: #fff;
+  border: none;
+}
+
+.menu-btn.filled:hover {
+  background: #222;
+}
+
+.menu-btn.colored {
+  background: #f15f5f;
+  color: #fff;
+  border: none;
+}
+
+.menu-btn.colored:hover {
+  background: #c14848;
+}
+
+.user-point {
+  color: #f15f5f;
+  font-weight: bold;
+  margin-top: 4px;
+}
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.edit-modal {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 320px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.edit-modal h3 {
+  margin-bottom: 15px;
+}
+
+.edit-modal label {
+  margin-top: 10px;
+  display: block;
+  font-weight: bold;
+}
+
+.edit-modal input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.modal-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.confirm-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  background-color: #ccc;
+  color: black;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+

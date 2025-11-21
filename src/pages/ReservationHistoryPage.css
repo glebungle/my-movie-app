@@ -1,0 +1,116 @@
+.history-page {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  min-height: 800px;
+}
+
+.reservation-list {
+  list-style: none;
+  padding: 0;
+}
+
+.reservation-item {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 16px;
+  background: #f9f9f9;
+}
+
+.movie-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.info {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.seat-info {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.status {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.status.confirmed {
+  color: green;
+}
+
+.status.cancel {
+  color: red;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.cancel-btn {
+  padding: 6px 12px;
+  background-color: #303030;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.cancel-btn:hover {
+  background-color: #d9363e;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.reserve-review-btn {
+  padding: 6px 12px;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.reserve-revieww-btn:hover {
+  background-color: #8d8d8d;
+}
+
+.continue-btn {
+  margin-top: 8px;
+  padding: 6px 12px;
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.continue-btn:hover {
+  background-color: #d9363e;
+}
+
+.no-reservation-message {
+  margin: 1rem 0;
+  color: #ccc;
+}
+
+.mini-alert{
+  color:#d9363e;
+  font-size:14px;
+}

@@ -1,0 +1,45 @@
+.my-event-page {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  min-height: 800px;
+}
+
+.back-button{
+  margin:0px;
+}
+
+.event-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.event-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+}
+
+.event-thumb {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.event-info h3 {
+  font-size: 18px;
+  margin: 10px 0 5px;
+}
+
+.result.win {
+  color: green;
+  font-weight: bold;
+}
+
+.result.lose {
+  color: red;
+  font-weight: bold;
+}

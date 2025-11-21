@@ -1,0 +1,119 @@
+.detail-container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.movie-detail {
+  width: 900px;
+  padding: 40px;
+  font-family: sans-serif;
+  color: black;
+}
+
+.movie-header {
+  display: flex;
+  gap: 30px;
+}
+
+.poster {
+  width: 240px;
+  border-radius: 8px;
+}
+
+.movie-info {
+  flex: 1;
+}
+
+.movie-info h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.age {
+  background-color: gold;
+  color: #000;
+  padding: 2px 6px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.movie-info p {
+  margin: 6px 0;
+  font-size: 16px;
+}
+
+.buttons {
+  margin-top: 15px;
+  display:flex;
+  gap:10px;
+}
+
+.reserve-btn,
+.review-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.reserve-btn {
+  background-color: #ff4d6d;
+  color: white;
+}
+
+.review-btn {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+}
+
+.movie-details,
+.movie-summary,
+.movie-preview,
+.movie-stillcuts {
+  margin-top: 40px;
+}
+
+.movie-preview img,
+.movie-stillcuts img {
+  width: 100%;
+  min-width: 400px;
+  border-radius: 8px;
+}
+
+.stillcut-gallery {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.stillcut-gallery img {
+  width: 160px;
+  border-radius: 6px;
+}
+
+.wishlist-btn {
+  background-color: transparent;
+  font-weight: bold;
+  cursor: pointer;
+  border: transparent;
+}
+
+.wishlist-icon{
+  width:28px;
+}
+
+.detail-review-list{
+  display:block;
+  margin-bottom: 10px;
+  padding:0px;
+}
+
+.detail-review-item{
+  margin-bottom: 12px;
+  padding:10px 20px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}

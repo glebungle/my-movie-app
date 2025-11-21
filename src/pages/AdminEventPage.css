@@ -1,0 +1,37 @@
+.admin-event-container {
+  padding: 20px;
+  
+}
+
+.event-register-form input {
+  display: block;
+  margin: 5px 0;
+  padding: 5px;
+}
+
+.event-register-form button {
+  margin-top: 10px;
+}
+
+.event-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.event-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+}
+
+.event-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.winner-list {
+  margin-top: 10px;
+  padding-left: 20px;
+}

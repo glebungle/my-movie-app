@@ -1,0 +1,35 @@
+.admin-coupon-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 1rem;
+  font-family: 'Pretendard', sans-serif;
+}
+
+.issue-form {
+  margin-top: 20px;
+}
+
+.issue-form input {
+  padding: 6px 10px;
+  margin-right: 10px;
+  width: 120px;
+}
+
+.issue-form button {
+  padding: 6px 14px;
+  background-color: #f15f5f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.issue-form button:hover {
+  background-color: #d84343;
+}
+
+.result-message {
+  margin-top: 20px;
+  font-weight: bold;
+  color: green;
+}

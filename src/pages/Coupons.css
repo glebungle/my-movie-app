@@ -1,0 +1,39 @@
+.coupon-container {
+  max-width: 800px;
+  margin: 40px auto;
+  min-height: 800px;
+}
+
+.coupon-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.coupon-table th,
+.coupon-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.coupon-table th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  color: #444;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  padding: 0;
+  display: inline-block;
+}
+
+.back-button:hover {
+  color: #f15f5f;
+  font-weight: bold;
+}

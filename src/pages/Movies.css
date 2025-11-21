@@ -1,0 +1,159 @@
+.banner-image {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.movie-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  margin: 0 auto;
+  align-items: center;
+  min-height: 700px;
+}
+
+.filter-bar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.filter-bar select {
+  padding: 6px 12px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.movies-movie-list {
+  display: grid; 
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+  gap: 16px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.movie-card {
+  width: 200px;
+  font-size: 14px;
+  margin: 0 auto;
+}
+
+.movie-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover; 
+  border-radius: 4px;
+}
+
+.movie-list-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.movie-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.upcoming {
+  color: #ccc;
+  margin-left: 10px;
+  font-weight: normal;
+}
+
+.movie-card .title {
+  font-weight: bold;
+  margin: 5px 0;
+
+}
+
+.status-toggle {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.status-toggle button {
+  font-size: 1.1rem;
+  margin: 0 10px;
+  padding: 8px 16px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: #888;
+}
+
+.status-toggle .active {
+  color: #000;
+  border-bottom: 2px solid black;
+}
+
+.rating-line {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+}
+
+.audience-line {
+  display: flex;
+  gap: 6px;
+  justify-content: center; 
+}
+
+.info-line {
+  display: flex;
+  gap: 6px;
+  justify-content: center; 
+  font-size: 14px;
+}
+
+.no-movie-msg {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 40px;
+  color: gray;
+}
+
+
+.search-btn {
+  margin-top: 8px;
+  padding: 6px 12px;
+  background-color: #a1a1a1;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.search-btn:hover {
+  background-color: #717171;
+}
+
+.sort-options{
+  display: flex;
+  gap:8px;
+  margin-bottom:20px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right:23%;
+  color: rgb(131, 131, 131);
+}
+
+.sort-btn{
+  color: rgb(131, 131, 131);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.movie-section,
+.movie-list,
+.movie-card {
+  background-color: transparent !important;
+}

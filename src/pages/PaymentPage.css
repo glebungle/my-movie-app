@@ -1,0 +1,77 @@
+.payment-page {
+  max-width: 800px;
+  margin: 50px auto;
+  background: #2f2f2f;
+  color: white;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.payment-page h2 {
+  background: #2f2f2f;
+  padding: 20px;
+  margin: 0;
+  font-size: 28px;
+  text-align: center;
+}
+
+.payment-section {
+  background: #eee;
+  padding: 30px;
+  color: black;
+}
+
+.coupon-section {
+  margin-top: 10px;
+}
+
+.coupon-section select {
+  margin-left: 10px;
+  padding: 5px 10px;
+}
+
+.payment-method {
+  padding: 30px;
+  background: #eee;
+  color: black;
+}
+
+.payment-method select {
+  margin-left: 10px;
+  padding: 5px 10px;
+}
+
+.payment-section p,
+.payment-section h3 {
+  font-size: 20px;
+  margin: 10px 0;
+  text-align: right;
+}
+
+.payment-section .total-price {
+  color: red;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  background: #2f2f2f;
+  padding: 20px;
+}
+
+.btn-group button {
+  padding: 12px 30px;
+  border: none;
+  border-radius: 4px;
+  background: #f66;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-group button:first-child {
+  background: #ccc;
+  color: black;
+}
